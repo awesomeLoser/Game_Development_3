@@ -62,8 +62,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Prototype 1\source\PlayerController.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\PlayerControllerX.cs" />
+    <Compile Include="Assets\Prototype 1\source\SpawnManager.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
     <Compile Include="Assets\Universal\Scripts\JMC.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\DestroyOutOfBoundsX.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Prototype 1\source\MoveFoward.cs" />
+    <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
+    <Compile Include="Assets\Prototype 1\source\DetectCollisions.cs" />
+    <Compile Include="Assets\Prototype 1\source\DestroyOutOfBounds.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Prototype 1\assets\Course Library\_Source_Files\_LICENSE.txt" />
