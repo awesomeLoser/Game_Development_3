@@ -1,42 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\",
+  "WorkspaceRootPath": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\brismedia\\downloads\\game_development_3\\game_dev_3\\assets\\prototype 1\\source\\detectcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\detectcollisions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 2\\source\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 2\\source\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\brismedia\\downloads\\game_development_3\\game_dev_3\\assets\\prototype 1\\source\\humanscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\humanscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\destroyoutofbounds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\movefoward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\movefoward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\animalhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\animalhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\p1_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\p1_button.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\assets\\prototype 1\\source\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 1\\source\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 2\\source\\dialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 2\\source\\dialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,121 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "humanScript.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\humanScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\humanScript.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\humanScript.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\humanScript.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwB0AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T08:06:12.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "p1_button.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\p1_button.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\p1_button.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\p1_button.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\p1_button.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T07:56:28.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AnimalHunger.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\AnimalHunger.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\AnimalHunger.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\AnimalHunger.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\AnimalHunger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T06:57:29.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\GameManager.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-09T06:38:31.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T05:20:17.723Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DetectCollisions.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\DetectCollisions.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\DetectCollisions.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\DetectCollisions.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\DetectCollisions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "Choices.cs",
+              "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Choices.cs",
+              "RelativeDocumentMoniker": "Assets\\Prototype 2\\source\\Choices.cs",
+              "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Choices.cs",
+              "RelativeToolTip": "Assets\\Prototype 2\\source\\Choices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T06:01:37.604Z",
+              "WhenOpened": "2026-07-07T07:27:24.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DestroyOutOfBounds.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\DestroyOutOfBounds.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\DestroyOutOfBounds.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\DestroyOutOfBounds.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\DestroyOutOfBounds.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Dialouge.cs",
+              "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Dialouge.cs",
+              "RelativeDocumentMoniker": "Assets\\Prototype 2\\source\\Dialouge.cs",
+              "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Dialouge.cs",
+              "RelativeToolTip": "Assets\\Prototype 2\\source\\Dialouge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T05:15:14.645Z",
+              "WhenOpened": "2026-07-07T06:41:46.951Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MoveFoward.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\MoveFoward.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\MoveFoward.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\MoveFoward.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\MoveFoward.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-06T05:07:23.198Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Prototype 1\\source\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\brismedia\\Downloads\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 1\\source\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Prototype 1\\source\\PlayerController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T08:19:12.208Z"
             }
           ]
         }
