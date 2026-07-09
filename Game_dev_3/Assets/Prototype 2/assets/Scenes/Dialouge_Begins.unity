@@ -206,13 +206,14 @@ GameObject:
   - component: {fileID: 67317351}
   - component: {fileID: 67317350}
   - component: {fileID: 67317349}
+  - component: {fileID: 67317352}
   m_Layer: 5
   m_Name: ChoiceChooser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &67317348
 RectTransform:
   m_ObjectHideFlags: 0
@@ -298,6 +299,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &67317352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67317347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 003216603761fce45b78b0d89eae7622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Choices
+  myChoice: 0
 --- !u!1 &84865794
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,8 +403,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialouge
   textComponent: {fileID: 762886302}
   lines:
-  - AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-  - dude shut up
+  - Oh, hey protag. You invited me here to say something, right?
+  - "Well whatever you have to say, I\u2019m all ears!"
+  - (Another person is about to confess under you!)
+  - "(Huh? You thought YOU were who that girl was talking to? You\u2019re a tree!)"
+  - "(You\u2019ve been transmuted into the confessor\u2019s body, and you have to
+    help her confess!)"
+  - "(...You don\u2019t know how??? Just, trust me, ok?)"
+  - "(You\u2019re already a pretty famous legend, so just do what you always do!)"
+  - "(Quickly! she\u2019s about to ask a question!)"
+  - Protag ...?
+  - You look all red and sweaty, are you alright?
   textSpeed: 0.03
   ChoiceChooser: {fileID: 67317347}
 --- !u!1 &289731893
@@ -926,7 +949,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Huh? I wasnt listening"'
+  m_text: "I\u2019m just... nervous, is all... "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1112,7 +1135,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"I compleltly see and understand your feelings"'
+  m_text: "Yeah, I\u2019m fine, it\u2019s just a little warm today "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

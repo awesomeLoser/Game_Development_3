@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 2\\source\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 2\\source\\choices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 2\\source\\dialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 2\\source\\dialouge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Choices.cs",
+              "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Choices.cs",
+              "RelativeDocumentMoniker": "Assets\\Prototype 2\\source\\Choices.cs",
+              "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Choices.cs",
+              "RelativeToolTip": "Assets\\Prototype 2\\source\\Choices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T07:27:24.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Dialouge.cs",
               "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Dialouge.cs",
               "RelativeDocumentMoniker": "Assets\\Prototype 2\\source\\Dialouge.cs",
               "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Dialouge.cs",
               "RelativeToolTip": "Assets\\Prototype 2\\source\\Dialouge.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowEIAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-07T06:41:46.951Z",
               "EditorCaption": ""
