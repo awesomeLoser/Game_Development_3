@@ -128,6 +128,16 @@ public class Choices : MonoBehaviour
         {
             SceneManager.LoadScene("bad_end");
         }
+
+        if (currentScene.name == "bad_end" && myChoice == CHOICE.CHOICE1)
+        {
+            SceneManager.LoadScene("Dialouge_Begins");
+        }
+
+        if (currentScene.name == "good_end" && myChoice == CHOICE.CHOICE1)
+        {
+            SceneManager.LoadScene("Dialouge_Begins");
+        }
     }
 
     public void Consequences()

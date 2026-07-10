@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Scene
   m_RootView: {fileID: 5}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -246,14 +246,14 @@ MonoBehaviour:
     y: 0
     width: 1372
     height: 710
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 16}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -613,151 +613,27 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs:
-      - m_Data: 74072
+      m_SelectedIDs: []
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -125340
-      - m_Data: -123554
-      - m_Data: -122098
-      - m_Data: -121848
-      - m_Data: -121620
-      - m_Data: -120390
-      - m_Data: -119642
-      - m_Data: -119000
-      - m_Data: -118392
-      - m_Data: -117790
-      - m_Data: -117140
-      - m_Data: -116412
-      - m_Data: -115628
-      - m_Data: -114770
-      - m_Data: -113796
-      - m_Data: -113450
-      - m_Data: -112468
-      - m_Data: -110916
-      - m_Data: -107758
-      - m_Data: -106240
-      - m_Data: -105920
-      - m_Data: -105618
-      - m_Data: -105188
-      - m_Data: -78096
-      - m_Data: -77872
-      - m_Data: -77614
-      - m_Data: -77368
-      - m_Data: -77116
-      - m_Data: -76870
-      - m_Data: -76606
-      - m_Data: -76354
-      - m_Data: -76102
-      - m_Data: -75848
-      - m_Data: -75624
-      - m_Data: -75374
-      - m_Data: -75120
-      - m_Data: -74896
-      - m_Data: -74672
-      - m_Data: -74418
-      - m_Data: -74166
-      - m_Data: -73912
-      - m_Data: -72508
-      - m_Data: -70966
-      - m_Data: -70746
-      - m_Data: -70132
-      - m_Data: -69732
-      - m_Data: -69478
-      - m_Data: -69268
-      - m_Data: -69058
-      - m_Data: -68848
-      - m_Data: -68370
-      - m_Data: -66164
-      - m_Data: -65942
-      - m_Data: -65178
-      - m_Data: -64676
-      - m_Data: -63914
-      - m_Data: -63284
-      - m_Data: -62062
-      - m_Data: -61588
-      - m_Data: -61274
-      - m_Data: -60784
-      - m_Data: -60574
-      - m_Data: -60360
-      - m_Data: -60150
-      - m_Data: -59666
-      - m_Data: -58600
-      - m_Data: -57904
-      - m_Data: -55946
-      - m_Data: -55102
-      - m_Data: -53534
-      - m_Data: 74258
-      - m_Data: 74366
-      - m_Data: 75080
-      - m_Data: 75372
-      - m_Data: 75668
-      - m_Data: 76388
-      - m_Data: 76676
-      - m_Data: 76820
-      - m_Data: 76968
-      - m_Data: 77282
-      - m_Data: 77574
-      - m_Data: 77870
-      - m_Data: 78158
-      - m_Data: 78854
-      - m_Data: 79236
-      - m_Data: 81960
-      - m_Data: 81970
-      - m_Data: 82068
-      - m_Data: 92504
-      - m_Data: 92792
-      - m_Data: 92936
-      - m_Data: 93080
-      - m_Data: 96156
-      - m_Data: 96242
-      - m_Data: 96254
-      - m_Data: 96266
-      - m_Data: 96448
-      - m_Data: 96532
-      - m_Data: 96544
-      - m_Data: 96556
-      - m_Data: 96990
-      - m_Data: 97172
-      - m_Data: 97256
-      - m_Data: 97268
-      - m_Data: 97280
-      - m_Data: 97604
-      - m_Data: 97688
-      - m_Data: 97700
-      - m_Data: 97712
-      - m_Data: 97892
-      - m_Data: 97902
-      - m_Data: 97976
-      - m_Data: 97988
-      - m_Data: 98000
-      - m_Data: 98180
-      - m_Data: 98264
-      - m_Data: 98276
-      - m_Data: 98288
-      - m_Data: 98612
-      - m_Data: 98696
-      - m_Data: 98708
-      - m_Data: 98720
-      - m_Data: 98900
-      - m_Data: 98984
-      - m_Data: 98996
-      - m_Data: 99008
-      - m_Data: 99188
-      - m_Data: 99272
-      - m_Data: 99284
-      - m_Data: 99296
-      - m_Data: 99476
-      - m_Data: 99560
-      - m_Data: 99572
-      - m_Data: 99584
-      - m_Data: 99908
-      - m_Data: 99992
-      - m_Data: 100004
-      - m_Data: 100016
-      - m_Data: 101496
-      - m_Data: 101624
+      - m_Data: -65920
+      - m_Data: -63290
+      - m_Data: -59620
+      - m_Data: -59600
+      - m_Data: -59368
+      - m_Data: -57144
+      - m_Data: -57124
+      - m_Data: -57104
+      - m_Data: -55262
+      - m_Data: -55242
+      - m_Data: -55222
+      - m_Data: -55080
+      - m_Data: -54672
+      - m_Data: -53658
+      - m_Data: 74252
+      - m_Data: 74808
+      - m_Data: 75072
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -883,7 +759,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prototype 2/assets/Scenes
+    - Assets/Prototype 3/assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -930,21 +806,21 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 300}
-    m_SelectedIDs:
-    - m_Data: 74072
+    scrollPos: {x: 0, y: 420}
+    m_SelectedIDs: []
     m_LastClickedID:
-      m_Data: 74072
+      m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 73988
-    - m_Data: 74038
+    - m_Data: 74008
     - m_Data: 74058
     - m_Data: 74060
-    - m_Data: 74062
-    - m_Data: 74066
-    - m_Data: 74068
-    - m_Data: 74070
+    - m_Data: 74076
+    - m_Data: 74110
+    - m_Data: 74112
+    - m_Data: 74278
+    - m_Data: 75962
+    - m_Data: 76058
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -971,9 +847,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 74072
-    m_LastClickedInstanceID: 74072
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1076,7 +951,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

@@ -88,6 +88,7 @@
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Assister.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\MQTTnetPublisher.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Logger\UnitySink.cs" />
+    <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Monitors\NavMeshAreasMonitor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\Preferences\PreferenceMonitor.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\EditorCoroutines\EditorWindowCoroutineExtension.cs" />
     <Compile Include="Packages\com.merry-yellow.code-assist\Editor\UnityClassExtensions.cs" />
