@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Unity\\Game_Development_3\\Game_dev_3\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\unity\\game_development_3\\game_dev_3\\assets\\prototype 3\\source\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 3\\source\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Unity\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\PlayerMovement.cs",
+              "ToolTip": "C:\\Unity\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Prototype 3\\source\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-11T11:35:43.23Z",
+              "EditorCaption": ""
             }
           ]
         }
