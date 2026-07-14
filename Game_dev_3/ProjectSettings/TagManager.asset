@@ -8,6 +8,7 @@ TagManager:
   - Animal
   - Pizza
   - Human
+  - Spike
   layers:
   - Default
   - TransparentFX

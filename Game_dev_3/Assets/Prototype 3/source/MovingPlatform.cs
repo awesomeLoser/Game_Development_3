@@ -8,10 +8,14 @@ public class MovingPlatform : MonoBehaviour
     public float minDistance = 0.001f;
 
     private int _currentWaypointIndex;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+    
+
+
     }
 
     // Update is called once per frame
@@ -24,7 +28,11 @@ public class MovingPlatform : MonoBehaviour
     {
         Vector3 target = waypoints[_currentWaypointIndex].position;
 
-        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        if (PlayerMovement.timeFrozen == false)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        }
+
 
         if(Vector3.SqrMagnitude(target - transform.position) < minDistance * minDistance)
             {

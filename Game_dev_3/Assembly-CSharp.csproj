@@ -106,8 +106,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Prototype 3\source\MovingPlatform.cs" />
     <Compile Include="Assets\Prototype 1\source\GameManager.cs" />
+    <Compile Include="Assets\Prototype 3\source\UItime.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Prototype 3\source\Thwomp script.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Prototype 2\source\Dialouge.cs" />
@@ -115,6 +117,7 @@
     <Compile Include="Assets\Prototype 1\source\DestroyOutOfBounds.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Prototype 1\source\AnimalHunger.cs" />
+    <Compile Include="Assets\Prototype 3\source\enemytimemove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
