@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 3\\source\\thwomp script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 3\\source\\thwomp script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 3\\source\\enemytimemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 3\\source\\enemytimemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 3\\source\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\assets\\prototype 3\\source\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 3\\source\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|c:\\users\\crogerson1\\documents\\github\\game_development_3\\game_dev_3\\assets\\prototype 3\\source\\thwomp script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|solutionrelative:assets\\prototype 3\\source\\thwomp script.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7094FC12-DBCA-138B-4199-3132ECBF8D5E}|Assembly-CSharp.csproj|C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\assets\\prototype 3\\source\\movingplatform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,19 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "enemytimemove.cs",
+              "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\enemytimemove.cs",
+              "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\enemytimemove.cs",
+              "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\enemytimemove.cs",
+              "RelativeToolTip": "Assets\\Prototype 3\\source\\enemytimemove.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-14T07:58:46.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Thwomp script.cs",
               "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\Thwomp script.cs",
               "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\Thwomp script.cs",
               "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\Thwomp script.cs",
               "RelativeToolTip": "Assets\\Prototype 3\\source\\Thwomp script.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAiwDAAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwDAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-14T07:33:21.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UItime.cs",
               "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\UItime.cs",
               "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\UItime.cs",
@@ -59,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dialouge.cs",
               "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 2\\source\\Dialouge.cs",
               "RelativeDocumentMoniker": "Assets\\Prototype 2\\source\\Dialouge.cs",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MovingPlatform.cs",
               "DocumentMoniker": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\MovingPlatform.cs",
               "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\MovingPlatform.cs",
@@ -89,7 +106,7 @@
               "RelativeDocumentMoniker": "Assets\\Prototype 3\\source\\PlayerMovement.cs",
               "ToolTip": "C:\\Users\\crogerson1\\Documents\\GitHub\\Game_Development_3\\Game_dev_3\\Assets\\Prototype 3\\source\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Prototype 3\\source\\PlayerMovement.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAgwAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-11T11:35:43.23Z",
               "EditorCaption": ""
