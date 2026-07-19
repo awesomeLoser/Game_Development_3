@@ -9,6 +9,7 @@ TagManager:
   - Pizza
   - Human
   - Spike
+  - Win
   layers:
   - Default
   - TransparentFX

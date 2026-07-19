@@ -4,11 +4,11 @@
 - Active scene:
   - Name: MainLevelTime
   - Tags:
-    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Dog, Animal, Pizza, Human, Spike
+    - Untagged, Respawn, Finish, EditorOnly, MainCamera, Player, GameController, Dog, Animal, Pizza, Human, Spike, Win
   - Layers:
     - Default, TransparentFX, Ignore Raycast, Water, UI
 - Active game object:
-  - Name: Platform (1)
-  - Tag: Untagged
+  - Name: LevelEnd
+  - Tag: Win
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->

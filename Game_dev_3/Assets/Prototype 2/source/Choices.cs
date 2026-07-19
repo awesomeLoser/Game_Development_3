@@ -138,6 +138,10 @@ public class Choices : MonoBehaviour
         {
             SceneManager.LoadScene("Dialouge_Begins");
         }
+              if (currentScene.name == "timeWin" && myChoice == CHOICE.CHOICE1)
+        {
+            SceneManager.LoadScene("MainLevelTime");
+        }
     }
 
     public void Consequences()

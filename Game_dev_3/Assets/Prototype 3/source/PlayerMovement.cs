@@ -58,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
             timeCooldown -= Time.deltaTime;
         }
 
-        Debug.Log($"Frozen: {timeFrozen} | Freeze Timer: {timeTimer:F2} | Cooldown: {timeCooldown:F2}");
+        //Debug.Log($"Frozen: {timeFrozen} | Freeze Timer: {timeTimer:F2} | Cooldown: {timeCooldown:F2}");
     }
 
     void FixedUpdate()
@@ -84,8 +84,15 @@ public class PlayerMovement : MonoBehaviour
         {
             RestartLevel();
         }
+
+         if (collision.gameObject.CompareTag("Win"))
+        {
+            SceneManager.LoadScene("timeWin");
+        }
+
         print(collision.gameObject.name);
         isJumping = false;
+
     }
 
 

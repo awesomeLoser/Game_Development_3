@@ -53,6 +53,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Prototype 2/assets/Scenes/good_end.unity
     guid: a8bbb8cbbb7f47e458d1bdb8503b9cb9
+  - enabled: 1
+    path: Assets/Prototype 3/assets/Scenes/MainLevelTime.unity
+    guid: 35bd58cd2f86eaa4e8cb6bfd5136ca20
+  - enabled: 1
+    path: Assets/Prototype 3/assets/Scenes/TimeTestLevel.unity
+    guid: 5045b9f856b4ba2488831a2ce2ed0253
+  - enabled: 1
+    path: Assets/Prototype 3/assets/Scenes/timeWin.unity
+    guid: 687766d494aebd44f910392082de277c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
