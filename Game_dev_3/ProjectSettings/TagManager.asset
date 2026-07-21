@@ -10,6 +10,8 @@ TagManager:
   - Human
   - Spike
   - Win
+  - Wall
+  - Ground
   layers:
   - Default
   - TransparentFX
