@@ -712,6 +712,18 @@ MonoBehaviour:
   wallJumpPower: 5
   wallSlideSpeed: 2
   jumpBufferTime: 0.15
+--- !u!114 &1696373002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472647540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ee2e0aadce52e45920b6cefb50a849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::playerCombat
 --- !u!1001 &2004544331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -890,6 +902,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1586148567256916996, guid: 202943f3590d9254682ab369439f30ac, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1696372998}
+    - targetCorrespondingSourceObject: {fileID: 1586148567256916996, guid: 202943f3590d9254682ab369439f30ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1696373002}
   m_SourcePrefab: {fileID: 100100000, guid: 202943f3590d9254682ab369439f30ac, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
