@@ -10,6 +10,7 @@ public class PlayerMovementUpgrades : MonoBehaviour
     bool isJumping = false;
     bool isGrounded = false;
     public float wallJumpPower = 5f;
+    public float doubleJumpPower = 6f;
     bool isTouchingWall = false;
     float wallDirection = 0f; // -1 = wall is on our left, 1 = wall is on our right
     public float wallSlideSpeed = 2f;
@@ -20,6 +21,8 @@ public class PlayerMovementUpgrades : MonoBehaviour
     // --- Ability unlock flags (set to true by pickups, see AbilityPickup.cs) ---
     public bool canWallJump = false;
     public bool canSlash = false;
+    public bool canDoubleJump = false;
+    bool hasDoubleJumped = false;
 
     // --- Sword slash settings ---
     public Transform attackPoint;      // empty child GameObject positioned in front of the player
@@ -61,6 +64,13 @@ public class PlayerMovementUpgrades : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(-wallDirection * moveSpeed, wallJumpPower);
             isJumping = true;
+            jumpBufferCounter = 0f;
+        }
+        else if (jumpBufferCounter > 0f && !isGrounded && !hasDoubleJumped && canDoubleJump)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, doubleJumpPower);
+            isJumping = true;
+            hasDoubleJumped = true;
             jumpBufferCounter = 0f;
         }
 
@@ -121,6 +131,11 @@ public class PlayerMovementUpgrades : MonoBehaviour
         canSlash = true;
     }
 
+    public void UnlockDoubleJump()
+    {
+        canDoubleJump = true;
+    }
+
     void FlipSprite()
     {
         if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
@@ -146,6 +161,7 @@ public class PlayerMovementUpgrades : MonoBehaviour
         {
             isGrounded = true;
             isJumping = false;
+            hasDoubleJumped = false;
         }
     }
 

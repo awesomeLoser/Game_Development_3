@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AbilityPickup : MonoBehaviour
 {
-    public enum AbilityType { WallJump, Slash }
+    public enum AbilityType { WallJump, Slash, DoubleJump }
     public AbilityType abilityType;
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -11,6 +11,10 @@ public class AbilityPickup : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         PlayerMovementUpgrades player = other.GetComponent<PlayerMovementUpgrades>();
+        if (player == null)
+        {
+            player = other.GetComponentInParent<PlayerMovementUpgrades>();
+        }
         if (player == null) return;
 
         switch (abilityType)
@@ -20,6 +24,9 @@ public class AbilityPickup : MonoBehaviour
                 break;
             case AbilityType.Slash:
                 player.UnlockSlash();
+                break;
+            case AbilityType.DoubleJump:
+                player.UnlockDoubleJump();
                 break;
         }
 
