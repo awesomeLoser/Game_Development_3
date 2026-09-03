@@ -1,9 +1,49 @@
 ﻿title: Start
 ---
-Narrator: wassup in the hiz house bitchesssssssssssssssss!
-Narrator: bababoeybababoeybababoeybababoey
--> who the fuck are you
-    Narrator: BABABOEYBABAOEYBABABOEYBABABOEY
--> This new form won't erase your SINS chancellor...
-    Narrator: eat my fat dump truck of an ass progenitor Drakenhold
+<<declare $found_torn_ticket = false as bool>>
+<<declare $found_statement = false as bool>>
+<<declare $presented_evidence = "" as string>>
+Narrator: The court is in session. We should look around for anything useful before the testimony begins.
+<<jump InvestigationIntro>>
 ===
+
+title: InvestigationIntro
+---
+Narrator: Click the evidence around the room to collect what you can.
+Narrator: The torn ticket and the witness statement are both relevant.
+===
+
+title: Object_TornTicket
+---
+Narrator: A torn train ticket. The date is still legible: the night of the crime.
+<<set $found_torn_ticket to true>>
+===
+
+title: Object_Statement
+---
+Narrator: A witness statement with a hurried signature. It mentions the suspect near the station entrance.
+<<set $found_statement to true>>
+===
+
+title: Testimony_1
+---
+Judge: Mr. Wright, what is your explanation for the suspect being seen near the station at 9:15 PM?
+Witness: I saw the suspect, but I cannot say for certain who it was.
+Witness: The real clue is the ticket stub from the station.
+<<set $presented_evidence to "">>
+<<open_evidence_menu>>
+<<if $presented_evidence == "torn_ticket">>
+    Witness: Ah, the torn ticket! That matches the station timings.
+    <<jump Testimony_1_Refute>>
+<<else>>
+    Witness: That's not it. Try again.
+    <<jump Testimony_1>>
+<<endif>>
+===
+
+title: Testimony_1_Refute
+---
+Narrator: The witness falters. The ticket proves the suspect was at the station, contradicting the earlier claim.
+Narrator: The testimony advances.
+===
+

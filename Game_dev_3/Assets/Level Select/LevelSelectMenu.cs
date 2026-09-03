@@ -14,7 +14,8 @@ public class LevelSelectMenu : MonoBehaviour
         ("Tree Game", "Dialouge_Begins"),
         ("Time", "MainLevelTime"),
         ("Upgrades", "FullUpgradeLevel"),
-        ("Pizza Time", "Prototype 2")
+        ("Pizza Time", "Prototype 2"),
+        ("The Last Train", "Prototype5SampleScene")
     };
 
     private void Awake()
@@ -41,7 +42,7 @@ public class LevelSelectMenu : MonoBehaviour
         for (int i = 0; i < levels.Length; i++)
         {
             int levelIndex = i;
-            CreateButton(canvas.transform, levels[i].label, new Vector2(0f, 115f - i * 125f), () => LoadLevel(levels[levelIndex].sceneName));
+            CreateButton(canvas.transform, levels[i].label, new Vector2(0f, 175f - i * 125f), () => LoadLevel(levels[levelIndex].sceneName));
         }
     }
 

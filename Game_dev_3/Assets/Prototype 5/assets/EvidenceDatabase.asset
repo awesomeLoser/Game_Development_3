@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a663c7de3dccb4745a5d99b2f05a40db, type: 3}
+  m_Name: EvidenceDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::AceAttorney.EvidenceDatabase
+  evidenceItems:
+  - {fileID: 11400000, guid: 64f564320179cc04b89811d346c0c36b, type: 2}
+  - {fileID: 11400000, guid: 541235791bd8965449494e1d53fb7454, type: 2}
+  - {fileID: 11400000, guid: 8a7f3c69d2b14e45ad716583e09cb2a1, type: 2}
+  - {fileID: 11400000, guid: 34c6d1f8a97b4e3cad5e80bf2196fa72, type: 2}
+  - {fileID: 11400000, guid: c5e2a6f84d0b4e7289a31fb76cd84910, type: 2}

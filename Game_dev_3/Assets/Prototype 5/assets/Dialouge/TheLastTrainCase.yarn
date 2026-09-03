@@ -1,0 +1,81 @@
+// THE LAST TRAIN CASE
+// This file uses $presented_evidence, which is already declared in Intro.yarn.
+// Do not declare that variable again here, or Yarn Spinner will report a duplicate declaration.
+
+title: Object_PlatformClockPhoto
+---
+Narrator: A photo of the Platform 2 clock. The hands clearly read 9:05 PM.
+===
+
+title: Object_CoffeeReceipt
+---
+Narrator: A cafe receipt for two coffees. It seems unrelated, but keep it for now.
+===
+
+title: Object_LostGlove
+---
+Narrator: A single leather glove. It does not appear to belong to anyone in this case.
+===
+
+title: Case_LastTrain_Start
+---
+// CHANGE THIS: Replace this introduction with your own case setup.
+Narrator: The last train left the station at 9:00 PM. A conductor insists the suspect boarded it at 9:15.
+Judge: Present evidence for each contradiction in the testimony.
+<<jump Case_LastTrain_Contradiction_1>>
+===
+
+title: Case_LastTrain_Contradiction_1
+---
+// CONTRADICTION 1: Change the spoken claim below, but keep the correct ID in the if-check in sync.
+Conductor: I stamped the suspect's ticket at 9:15 PM, moments before the last train departed.
+<<set $presented_evidence to "">>
+<<open_evidence_menu>>
+<<if $presented_evidence == "torn_ticket">>
+    Defence: This torn ticket is stamped 8:45 PM, not 9:15. Your timing is impossible.
+    Conductor: You're right... I did not stamp that ticket at 9:15.
+    <<jump Case_LastTrain_Contradiction_2>>
+<<else>>
+    Judge: That evidence does not address the ticket's timestamp. Try again.
+    <<jump Case_LastTrain_Contradiction_1>>
+<<endif>>
+===
+
+title: Case_LastTrain_Contradiction_2
+---
+// CONTRADICTION 2: The correct evidence ID is "statement".
+Conductor: The only witness was standing outside the station and could not see Platform 2.
+<<set $presented_evidence to "">>
+<<open_evidence_menu>>
+<<if $presented_evidence == "statement">>
+    Defence: The witness statement says she was on Platform 2 at 8:55 PM. She could see the platform clearly.
+    Witness: I wrote that because it is true. The conductor knew where I was.
+    <<jump Case_LastTrain_Contradiction_3>>
+<<else>>
+    Judge: That does not contradict where the witness was standing. Try again.
+    <<jump Case_LastTrain_Contradiction_2>>
+<<endif>>
+===
+
+title: Case_LastTrain_Contradiction_3
+---
+// CONTRADICTION 3: The correct evidence ID is "platform_clock_photo".
+Conductor: At 9:05 PM, the station clock had stopped, so nobody can prove when I left Platform 2.
+<<set $presented_evidence to "">>
+<<open_evidence_menu>>
+<<if $presented_evidence == "platform_clock_photo">>
+    Defence: This photograph shows the Platform 2 clock running at 9:05 PM—and you beside it.
+    Conductor: No... That photograph should never have existed.
+    Judge: The testimony has collapsed. The conductor's account cannot be trusted.
+    <<jump Case_LastTrain_Complete>>
+<<else>>
+    Judge: That does not prove whether the platform clock was working. Try again.
+    <<jump Case_LastTrain_Contradiction_3>>
+<<endif>>
+===
+
+title: Case_LastTrain_Complete
+---
+// CHANGE THIS: Put your next investigation, verdict, or scene transition here.
+Narrator: With all three contradictions exposed, the truth about the last train begins to emerge.
+===

@@ -43,8 +43,8 @@
     <UnityVersion>6000.3.6f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\crogerson1\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Library\PackageCache\dev.yarnspinner.unity@bfc5b6a2e8bc\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
+    <Analyzer Include="C:\Users\Charlie\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Library\PackageCache\dev.yarnspinner.unity@bfc5b6a2e8bc\SourceGenerator\YarnSpinner.Unity.SourceCodeGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.6f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -59,6 +59,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Prototype 1\source\SpawnManager.cs" />
+    <Compile Include="Assets\Prototype 5\source\EvidenceMenuController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Prototype 4\source\PlayerMovementUpgrades.cs" />
     <Compile Include="Assets\Prototype 2\source\Choices.cs" />
@@ -69,9 +70,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
+    <Compile Include="Assets\Prototype 5\source\DialogueEvidenceSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Prototype 5\source\EvidenceDatabase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\Prototype 1\source\humanScript.cs" />
     <Compile Include="Assets\Prototype 3\source\TimeWin.cs" />
@@ -94,10 +97,14 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Prototype 1\source\MoveFoward.cs" />
+    <Compile Include="Assets\Prototype 5\source\InvestigationObject.cs" />
     <Compile Include="Assets\Prototype 4\source\GoalTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Prototype 5\source\EvidenceItem.cs" />
     <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Prototype 5\source\CaseStartTrigger.cs" />
+    <Compile Include="Assets\Prototype 5\source\EvidenceInventory.cs" />
     <Compile Include="Assets\Prototype 1\source\DetectCollisions.cs" />
     <Compile Include="Assets\Prototype 4\source\AbilityPickup.cs" />
     <Compile Include="Assets\Scripts\SceneDirector.cs" />
@@ -115,6 +122,8 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Prototype 1\source\DestroyOutOfBounds.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\GameOverMenu.cs" />
+    <Compile Include="Assets\Prototype 5\source\test script.cs" />
     <Compile Include="Assets\Prototype 1\source\AnimalHunger.cs" />
     <Compile Include="Assets\Prototype 3\source\enemytimemove.cs" />
     <Compile Include="Assets\Scripts\FadeLayer.cs" />
@@ -1449,18 +1458,18 @@
   </ItemGroup>
   <!--This section is added by Unity Code Assist-->
   <ItemGroup>
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.AnalyzersLite.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Common.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Completion.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.CompletionInternals.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.RoslynAnalyzerManager.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Synchronizer.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll" />
-    <Analyzer Include="C:\Users\crogerson1\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.VSIXLibrary.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.AnalyzersLite.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Common.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Completion.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.CompletionInternals.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Logger.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.MQTTnet.Extensions.ManagedClient.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Newtonsoft.Json.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.ProjectData.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.RoslynAnalyzerManager.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.Synchronizer.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.SynchronizerModel.dll" />
+    <Analyzer Include="C:\Users\Charlie\Documents\GitHub\Game_Development_3\Game_dev_3\Packages\com.merry-yellow.code-assist\Editor\ExternalReferences\Meryel.UnityCodeAssist.VSIXLibrary.dll" />
   </ItemGroup>
 </Project>

@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Level Select/Level Select.unity
     guid: d9db6c2cf531462d8904f7d141f77b5e
   - enabled: 1
-    path: Assets/_Recovery/0.unity
-    guid: 1fbc5f6f72d088046b8b12914077b1a3
+    path: Assets/Prototype 5/assets/Scenes/Game Over.unity
+    guid: 7c1f4f1c4c9e4c659c3c47a9a0f4d8b2
   - enabled: 1
     path: Assets/Challenge 2/Challenge 2.unity
     guid: f695fe0c51d8449d2b49648dad174255
@@ -75,11 +75,17 @@ EditorBuildSettings:
     path: Assets/Prototype 4/assets/Scenes/Upgrades Test.unity
     guid: 53916744239b96746b00730c83875f20
   - enabled: 1
-    path: Assets/Prototype 5/assets/Scenes/SampleScene.unity
+    path: Assets/Prototype 5/assets/Scenes/Prototype5SampleScene.unity
     guid: af7c6051ba96cda41be40f49edeffb9b
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/SpaceJourneyScene.unity
+    guid: a0de6b86f756c4fc8ab231a6ae482eaa
+  - enabled: 1
+    path: Assets/Prototype 5 saved/assets/Scenes/SampleScene.unity
+    guid: f0d5ccef810db17408a78c32eedaf410
   - enabled: 1
     path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh
       Pro.unity
